@@ -91,3 +91,9 @@ button {
     display: block;
     border-radius: 12px;
 }
+
+@media (max-width:320px) {
+    .container {
+        height: 585px;
+    }
+}
