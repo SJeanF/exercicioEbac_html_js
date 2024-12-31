@@ -85,8 +85,9 @@ button {
 }
 
 #conclusion-message {
-    margin-top: 20px;
+    margin-top: 16px;
     text-align: center;
     font-size: 24px;
-    display: none;
+    display: block;
+    border-radius: 20px;
 }
