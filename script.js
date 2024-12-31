@@ -17,7 +17,7 @@ formulario.addEventListener('submit', function(e) {
             containerMessage.innerHTML = 'Parabéns, você definitivamente sabe o mínimo do mínimo de matemática.'
             containerMessage.style.display = 'block'
             containerMessage.style.backgroundColor = 'green'
-            document.getElementsByClassName('container').style.border = '4px solid green'
+            document.getElementById('container').style.border = '4px solid green'
             
             Anumber.value = ''
             Bnumber.value = ''
@@ -25,7 +25,7 @@ formulario.addEventListener('submit', function(e) {
             containerMessage.innerHTML = 'Jumento da peste, vai aprender a contar antes de vir me usar.'
             containerMessage.style.display = 'block'
             containerMessage.style.backgroundColor = 'red'
-            document.getElementsByClassName('container').style.border = '4px solid red'
+            document.getElementById('container').style.border = '4px solid red'
             
             Anumber.value = ''
             Bnumber.value = ''
@@ -34,6 +34,6 @@ formulario.addEventListener('submit', function(e) {
         containerMessage.innerHTML = 'Filho, c tem que por algum numero dentro dessas duas caixinhas aqui tá'
         containerMessage.style.display = 'block'
         containerMessage.style.backgroundColor = 'fuchsia'
-        document.getElementsByClassName('container').style.border = '4px solid fuchsia'
+        document.getElementById('container').style.border = '4px solid fuchsia'
     }
 })
